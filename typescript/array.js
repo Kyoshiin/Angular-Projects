@@ -1,0 +1,10 @@
+var fruitArr = ['Apple', 'Orange', 'Banana', 'Grape', 'Mango'];
+console.log('\nAfter adding kiwi');
+fruitArr.push('kiwi');
+console.log(fruitArr);
+console.log('\nAfter pop()');
+fruitArr.pop();
+console.log(fruitArr);
+console.log('\nAfter sort()');
+fruitArr.sort();
+console.log(fruitArr);

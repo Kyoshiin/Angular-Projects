@@ -1,0 +1,16 @@
+a {
+    color: white;
+    width: 150px;
+    margin: 5px;
+}
+
+a:hover {
+    font-size: 18px;
+    background-color: navy;
+    color: white;
+    width: 150px;
+}
+
+#search {
+    width: 150px;
+}

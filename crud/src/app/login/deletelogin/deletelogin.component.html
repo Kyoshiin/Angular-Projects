@@ -1,0 +1,35 @@
+<div id="showForm">
+    <br />
+    <form (ngSubmit)="onSubmit()">
+        <button class="btn btn-danger btn-lg" type="submit"> Delete this Login</button>
+    </form>
+    <table border="0" align="center">
+        <thead>
+            <tr>
+                <td colspan="2">
+                    <h3 id="title">Show Login Form </h3>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <b>ID  </b> </td>
+                <td> {{login.id}} </td>
+            </tr>
+            <tr>
+                <td> <b>UserName   </b> </td>
+                <td> {{login.username}} </td>
+            </tr>
+            <tr>
+                <td> <b> Password    </b></td>
+                <td> {{login.password}}
+                </td>
+            </tr>
+            <tr>
+                <td> <b> Role   </b> </td>
+                <td> {{ login.role }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

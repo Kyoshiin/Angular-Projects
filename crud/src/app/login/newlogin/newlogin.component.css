@@ -1,0 +1,13 @@
+#newForm {
+    width: 35%;
+    margin: 5px;
+    background-color: rgb(50, 146, 205);
+    color: white;
+    height: 390px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    width: 75%;
+}

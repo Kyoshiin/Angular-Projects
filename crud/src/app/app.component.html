@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/images/home_3.png" alt="Home Logo" style="width:30px;height: 30px;" class="rounded-pill">
+        </a>
+    </div>
+    <div class="nav-item"> <a [routerLink]="['/login/listlogin']" class="nav-link active"> List All Logins </a> </div>
+    <div class="nav-item"> <a [routerLink]="['/login/newlogin']" class="nav-link"> New Login </a> </div>
+ 
+    <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search" id="search">
+        <button class="btn btn-info" type="button">Search</button>
+    </form>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+</nav>
+
+<div id="content">
+    <router-outlet>
+    </router-outlet>
+</div>
